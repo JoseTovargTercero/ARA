@@ -86,7 +86,7 @@
 
 
     <!-- Header -->
-    <header class="header" style="height: 95%;">
+    <header class="header" style="min-height: 95%;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -257,6 +257,9 @@
                     console.log(clasificacion)
                     $('#ModalTitle').html(`Idioma: ${clasificacion['comun']} - ${clasificacion['indigena']}`)
                     $('#modal').modal('toggle')
+                    document.getElementById('preguntas').classList.add('hide')
+                    document.getElementById('categorias').classList.add('show')
+
                 } else {
                     Toast.fire({
                         icon: "info",
