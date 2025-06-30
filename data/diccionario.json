@@ -1,0 +1,781 @@
+{
+  "piaroa": {
+    "preguntas_utiles": [
+      {
+        "español": "¿Está embarazada?",
+        "lengua": "Ucumä mö'chajuá?",
+        "pronunciacion": "Ucuma muchajuá?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Cuántos meses tiene?",
+        "lengua": "Ta'änu cahuatö cuäpa'tö?",
+        "pronunciacion": "taánu cawátu cuapa'tu?",
+        "respuestas": {
+          "pendiente": ""
+        }
+      },
+      {
+        "español": "¿Tiene dolor?",
+        "lengua": "Tëné Barahuä'tö?",
+        "pronunciacion": "tené Barawa tu?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Cuándo empezó el dolor?",
+        "lengua": "Tiñenö cämanö Baráwa chi'acuätö?",
+        "pronunciacion": "tiñenu camánu barawa chi acuatu?",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Es su primer bebé?",
+        "lengua": "Jumä a'cömena cui'ti?",
+        "pronunciacion": "juma acumena cuij tí",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Ha sangrado?",
+        "lengua": "Iwámä'ra'huä pide cahuanämä?",
+        "pronunciacion": "iwámaraua pide de cauanama?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Siente que el bebé se mueve?",
+        "lengua": "kichahuä bore'peji cuacuä'jacuänama",
+        "pronunciacion": "Kichawa borepeeji? Cuacuä'jacuänama",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          },
+          "3": {
+            "español": "Se mueve poco",
+            "lengua": "Cuapunäma boreo cocuäsä",
+            "pronunciacion": "cuapunäma boréo cocuäsä"
+          }
+        }
+      }
+    ],
+    "terminos_basicos_de_obstetricia": [
+      {
+        "español": "Embarazo",
+        "lengua": "Möchajö'sa",
+        "pronunciacion": "Muchaju sa",
+        "respuestas": {}
+      },
+      {
+        "español": "Parto",
+        "lengua": "Okajö ajö'sa",
+        "pronunciacion": "Okaju ajúsa",
+        "respuestas": {}
+      },
+      {
+        "español": "Contracciones",
+        "lengua": "Barahuä",
+        "pronunciacion": "Baráwa",
+        "respuestas": {}
+      },
+      {
+        "español": "Dolor",
+        "lengua": "Barahuä",
+        "pronunciacion": "Baráwa",
+        "respuestas": {}
+      },
+      {
+        "español": "Sangrado",
+        "lengua": "Ro'ö Jawa",
+        "pronunciacion": "roú jawá",
+        "respuestas": {}
+      },
+      {
+        "español": "Bebé / Recién nacido",
+        "lengua": "Töaña/Töa'sirahua",
+        "pronunciacion": "Tuaña/ Tuá'tchiraua",
+        "respuestas": {}
+      },
+      {
+        "español": "Placenta",
+        "lengua": "Kichahuä amähua",
+        "pronunciacion": "Kichawa amáua",
+        "respuestas": {}
+      },
+      {
+        "español": "Vagina",
+        "lengua": "Chöfaima/Chöfaica",
+        "pronunciacion": "Chufaima/Chufaika",
+        "respuestas": {}
+      },
+      {
+        "español": "Pezones / Pecho / Leche",
+        "lengua": "Chajta'te isära / Chajta'te / Kichahuä ahuolla",
+        "pronunciacion": "Chajtáte isára / Chajtáte / Kichawa awolla",
+        "respuestas": {}
+      },
+      {
+        "español": "Partera",
+        "lengua": "Chuju/Kuju",
+        "pronunciacion": "tal cual (mi xnx/tu xnx)",
+        "respuestas": {}
+      },
+      {
+        "español": "Cesárea",
+        "lengua": "Ka'ähuajö",
+        "pronunciacion": "Ka'áwáju",
+        "respuestas": {}
+      },
+      {
+        "español": "Pérdida / aborto espontáneo",
+        "lengua": "'Pöecua'cha",
+        "pronunciacion": "puecuat'cha",
+        "respuestas": {}
+      },
+      {
+        "español": "Fiebre / infección",
+        "lengua": "A'öre",
+        "pronunciacion": "Áure",
+        "respuestas": {}
+      },
+      {
+        "español": "Latido del bebé",
+        "lengua": "Kichahuä ami'söki",
+        "pronunciacion": "Kichawa amitsuki",
+        "respuestas": {}
+      }
+    ],
+    "instrucciones_comunes": [
+      {
+        "español": "Respire profundamente",
+        "lengua": "Jöapi peicunä",
+        "pronunciacion": "Juapi peícuna",
+        "respuestas": {}
+      },
+      {
+        "español": "Empuje",
+        "lengua": "Kiächi",
+        "pronunciacion": "Kiechi",
+        "respuestas": {}
+      },
+      {
+        "español": "No se mueva",
+        "lengua": "Borecuio",
+        "pronunciacion": "Borecuia",
+        "respuestas": {}
+      },
+      {
+        "español": "Vamos a revisar al bebé",
+        "lengua": "Kichahuä usähuä'jösa",
+        "pronunciacion": "Kichawa usaua júsa",
+        "respuestas": {}
+      },
+      {
+        "español": "Necesitamos llevarla al hospital",
+        "lengua": "Jahuäpö izodera'ta Tami pa'anöja",
+        "pronunciacion": "jawapu izoderata Tami paá nuja",
+        "respuestas": {}
+      }
+    ],
+    "estado_general_y_antecedentes": [
+      {
+        "español": "¿Ha estado embarazada antes?",
+        "lengua": "A'cömenäinä möchajö juinä'jua",
+        "pronunciacion": "a'cömenäinä muchaju juinajúa",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Cuántos hijos ha tenido?",
+        "lengua": "Ta'änu recuatörö cujunarätö cui'timömä",
+        "pronunciacion": "taánu recuaturu cujú'narátu cuij'tímuma",
+        "respuestas": {
+          "pendiente": ""
+        }
+      },
+      {
+        "español": "¿Tuvo alguna complicación en partos anteriores?",
+        "lengua": "Acömena cui'timörö cunäromena na'ächocojö pinejua?",
+        "pronunciacion": "Acumena cuij'timuru cunáromena naáchocoju pinejúa",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Tiene alguna enfermedad?",
+        "lengua": "Ucömë jiñete cumäriche june'reije?",
+        "pronunciacion": "Ucume jiñete cumeriche junereíje?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Está tomando algún medicamento?",
+        "lengua": "Jahuäpöma awäije?",
+        "pronunciacion": "jawapu aweiíje?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      }
+    ],
+    "sintomas_actuales": [
+      {
+        "español": "¿Tiene vómitos?",
+        "lengua": "Ucuma edecunä edecujua?",
+        "pronunciacion": "Ucuma edecune edecuajua?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Siente mareo o debilidad?",
+        "lengua": "Tocuäperiñuna jä?",
+        "pronunciacion": "tocueperiñuna já?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Ha notado hinchazón en los pies o manos?",
+        "lengua": "Cuijipunä cuimuna jiepei acuähuä",
+        "pronunciacion": "cuijipune cuimuna jiepei acuajhua",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Siente dolor de cabeza?",
+        "lengua": "Cuyu barahuä?",
+        "pronunciacion": "Cuyu barawa?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Tiene visión borrosa o luces?",
+        "lengua": "Cuiare adiu top'peije?",
+        "pronunciacion": "Cuiare adi'u topeije?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Siente picazón en el cuerpo?",
+        "lengua": "Cuidä pänä i'kihuaie cuje?",
+        "pronunciacion": "Cuide pene ikiwaie cuje?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      }
+    ],
+    "preguntas_sobre_el_bebe": [
+      {
+        "español": "¿Cuándo fue la última vez que sintió moverse al bebé?",
+        "lengua": "Teñenö boreacutu kichahuama?",
+        "pronunciacion": "tiñenu boreatutu kichawama?",
+        "respuestas": {
+          "1": {
+            "español": "Siento que se mueve",
+            "lengua": "Ikichahua borea cuäsa",
+            "pronunciacion": "Ikichawa bórea cuása"
+          },
+          "2": {
+            "español": "No lo he sentido hoy",
+            "lengua": "Tamä borepocupeji",
+            "pronunciacion": "Táma borépocupeji"
+          },
+          "3": {
+            "español": "Se mueve poco",
+            "lengua": "Cuapunäma boreo cocuäsä",
+            "pronunciacion": "cuapunäma boréo cocuäsä"
+          }
+        }
+      },
+      {
+        "español": "¿Ha notado cambios en los movimientos del bebé?",
+        "lengua": "Adinätamä borepeeji",
+        "pronunciacion": "adinata bore peije?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "Me duele cuando se mueve",
+            "lengua": "Barahuä cuäsä kichahuä boreomenä",
+            "pronunciacion": "Barawa cuása Kichawa boréomena"
+          },
+          "3": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Siente que el bebé está muy bajo?",
+        "lengua": "Ikichahuäma adinata raäji?",
+        "pronunciacion": "Ikichawa adinata raáji",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "¿Siente presión en la pelvis?",
+        "lengua": "Ikichahuäma peicunä meröcuaäji?",
+        "pronunciacion": "ikichawama peícuna merucuaáji?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      }
+    ],
+    "situaciones_de_urgencia": [
+      {
+        "español": "¿Cuánto tiempo hace que empezó el sangrado?",
+        "lengua": "Tiñenö ijäcuäcutö cucojamä?",
+        "pronunciacion": "Tiñenu ijecuacutu cucojama",
+        "respuestas": {}
+      },
+      {
+        "español": "¿El líquido que salió es claro o tiene color?",
+        "lengua": "Ta'änu joya moäcutö i'oyäma?",
+        "pronunciacion": "Taánu joya moacutu i oyama",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Tuvo fiebre recientemente?",
+        "lengua": "Jitänänuma aure rojamucocuapäjuä",
+        "pronunciacion": "jitananuma aure rojamucocuapájua",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Ha tenido convulsiones?",
+        "lengua": "Aure ticuäunä jä?",
+        "pronunciacion": "Aure ticuá uná já",
+        "respuestas": {}
+      }
+    ],
+    "frases_exploracion_fisica": [
+      {
+        "español": "Le voy a tomar la presión",
+        "lengua": "Jechä cuichi presión",
+        "pronunciacion": "jechá cuichi presión?",
+        "respuestas": {}
+      },
+      {
+        "español": "Voy a medirle la temperatura",
+        "lengua": "Jechä cuichi mariche cujönaräpetä",
+        "pronunciacion": "Jechä cuichi mariche",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Puedo tocarle el abdomen?",
+        "lengua": "Meu choätacö chucuama?",
+        "pronunciacion": "meú choátacu cucuama?",
+        "respuestas": {}
+      },
+      {
+        "español": "Le voy a palpar el vientre para sentir al bebé",
+        "lengua": "Meu choätacö ikichahua adinänu japeitä",
+        "pronunciacion": "Meu choátacu ikichawa adinanu japeita",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Le duele si presiono aquí?",
+        "lengua": "Barahua?",
+        "pronunciacion": "Baráwa?",
+        "respuestas": {
+          "1": {
+            "español": "Si",
+            "lengua": "A'áh",
+            "pronunciacion": "A,á"
+          },
+          "2": {
+            "español": "No",
+            "lengua": "Tajcua",
+            "pronunciacion": "Jécua"
+          }
+        }
+      },
+      {
+        "español": "Ahora le voy a revisar con el otro estetoscopio",
+        "lengua": "Ji tama chusabacuajua corona estetoscopionä",
+        "pronunciacion": "Ji tama chusabacuajua corona estetoscopio-na",
+        "respuestas": {}
+      },
+      {
+        "español": "Le voy a hacer un examen vaginal",
+        "lengua": "Täma chusabacuäjua cufai acä",
+        "pronunciacion": "Täma chusabacuajua cufai áca",
+        "respuestas": {}
+      },
+      {
+        "español": "Por favor, relájese",
+        "lengua": "Siäcuänä pähuäni",
+        "pronunciacion": "Siecueni pauani",
+        "respuestas": {}
+      },
+      {
+        "español": "Trate de respirar despacio",
+        "lengua": "Juäpi acoponanö",
+        "pronunciacion": "Juepi acoponanu",
+        "respuestas": {}
+      },
+      {
+        "español": "Dígame si siente dolor",
+        "lengua": "¿Barahunä ja'ä?",
+        "pronunciacion": "¿Barahunä ja'ä?",
+        "respuestas": {}
+      },
+      {
+        "español": "Acuéstese, por favor",
+        "lengua": "Te babäne Pauäni",
+        "pronunciacion": "te babäne pauani",
+        "respuestas": {}
+      },
+      {
+        "español": "Voy a revisar si el bebé está bien colocado",
+        "lengua": "Tamu usajusa ikichahua adi cueune äcape",
+        "pronunciacion": "Tama usájusa ikichawa adi cuene ejcape",
+        "respuestas": {}
+      },
+      {
+        "español": "Necesito revisar si ya está lista para el parto",
+        "lengua": "Täa chusäcuo tajcu oka pajcuianu jäapetä",
+        "pronunciacion": "Tama usahuajusa tajcu ocajöcuacuatö cuächa",
+        "respuestas": {}
+      },
+      {
+        "español": "No se preocupe, esto es normal",
+        "lengua": "Rienene cuacuä täcuecua",
+        "pronunciacion": "rienene cuajcue tajcuecua",
+        "respuestas": {}
+      },
+      {
+        "español": "Si siente molestias, avíseme",
+        "lengua": "Barahua chiötöma jiäbuitö",
+        "pronunciacion": "Barahua chiutuma jiebuitu",
+        "respuestas": {}
+      }
+    ],
+    "respuestas_estado_fisico": [
+      {
+        "español": "Me duele aquí",
+        "lengua": "Barahuä cuäsä pene",
+        "pronunciacion": "Baráwa cuasa pené",
+        "respuestas": {}
+      },
+      {
+        "español": "Solo un poco de molestia",
+        "lengua": "Ikichanö ta'barahua",
+        "pronunciacion": "Ikichano tá barawa",
+        "respuestas": {}
+      },
+      {
+        "español": "Me siento hinchada",
+        "lengua": "Jiamärajösa",
+        "pronunciacion": "jiá marajúsa",
+        "respuestas": {}
+      },
+      {
+        "español": "Me siento débil",
+        "lengua": "Cuaduna ja'ä",
+        "pronunciacion": "Cuaduna jaá",
+        "respuestas": {}
+      },
+      {
+        "español": "Tengo calor / Tengo fiebre",
+        "lengua": "Tume Duacuäsä / tume aure cönärajösä",
+        "pronunciacion": "Tume Duacuäsä / tume aure cönärajösä",
+        "respuestas": {}
+      },
+      {
+        "español": "No tengo fuerzas",
+        "lengua": "Chujuru juiäjusä",
+        "pronunciacion": "chujúru juiausa",
+        "respuestas": {}
+      }
+    ],
+    "durante_el_examen": [
+      {
+        "español": "Está bien",
+        "lengua": "A'ä/Yeh/tajcu Adiwa",
+        "pronunciacion": "A'á/ye/tajcu Adiwa",
+        "respuestas": {}
+      },
+      {
+        "español": "Por favor, con cuidado",
+        "lengua": "Tiäcuänä",
+        "pronunciacion": "tié cuéne",
+        "respuestas": {}
+      },
+      {
+        "español": "Me duele",
+        "lengua": "Barähuä",
+        "pronunciacion": "Barawa",
+        "respuestas": {}
+      },
+      {
+        "español": "Sí, puedo relajarme",
+        "lengua": "A'ä chidepacuachia",
+        "pronunciacion": "a'á chidepacuachia",
+        "respuestas": {}
+      },
+      {
+        "español": "No quiero que me toque",
+        "lengua": "Tajcu mecuätöcuätö",
+        "pronunciacion": "tajcu mecuatucuatu",
+        "respuestas": {}
+      }
+    ],
+    "instrucciones_medicas": [
+      {
+        "español": "Entiendo",
+        "lengua": "Wojächiäsä",
+        "pronunciacion": "wojachiasa",
+        "respuestas": {}
+      },
+      {
+        "español": "Está bien",
+        "lengua": "Yeh",
+        "pronunciacion": "Yeh",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Cuánto va a tardar?",
+        "lengua": "Ta'ärecuo tocuäpacuatö",
+        "pronunciacion": "taárecuo tocuepacuatö?",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Va a doler?",
+        "lengua": "Barahuä cuä?",
+        "pronunciacion": "Barawa cuá",
+        "respuestas": {}
+      },
+      {
+        "español": "Gracias por explicarme",
+        "lengua": "Tajcu Adiwa jicuahuamä",
+        "pronunciacion": "Tajcu Adiwa jicuajuama",
+        "respuestas": {}
+      },
+      {
+        "español": "Tengo miedo",
+        "lengua": "Töme yecuajösa",
+        "pronunciacion": "tuume yecuajúsa",
+        "respuestas": {}
+      },
+      {
+        "español": "¿Puedo avisar a mi familia?",
+        "lengua": "Tu Chahuaruhua jicuäbua nöja?",
+        "pronunciacion": "tu chawaruwa ji cuabuá nujá",
+        "respuestas": {}
+      },
+      {
+        "español": "Mi esposo",
+        "lengua": "Tu chirecuo",
+        "pronunciacion": "tu chireco",
+        "respuestas": {}
+      },
+      {
+        "español": "Mi madre",
+        "lengua": "Tu chajö",
+        "pronunciacion": "tu chaju",
+        "respuestas": {}
+      },
+      {
+        "español": "Hoy",
+        "lengua": "Ta morö/Moreji",
+        "pronunciacion": "ta moro",
+        "respuestas": {}
+      },
+      {
+        "español": "Mañana",
+        "lengua": "Ñaimorö/Ñaimorö'ta",
+        "pronunciacion": "Ñaimoro/ñaimoróta",
+        "respuestas": {}
+      },
+      {
+        "español": "Tarde",
+        "lengua": "Niparöme",
+        "pronunciacion": "Niparöme",
+        "respuestas": {}
+      },
+      {
+        "español": "Semana",
+        "lengua": "Pimänäta",
+        "pronunciacion": "Pimanáta",
+        "respuestas": {}
+      },
+      {
+        "español": "Mes",
+        "lengua": "Caräcahuäna",
+        "pronunciacion": "Caräcahuäna",
+        "respuestas": {}
+      },
+      {
+        "español": "Año",
+        "lengua": "Ñate jömena",
+        "pronunciacion": "Ñate jomena",
+        "respuestas": {}
+      }
+    ]
+  }
+}

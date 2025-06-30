@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sync is a landing page HTML template built with Bootstrap 4 for presenting mobile apps to the online audience and for getting visitors to become users.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="" /> <!-- website link -->
+    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Webpage Title -->
+    <title>ARA - LUCEMI MELGUERO</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+    <div id="loader" class="text-center my-4" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Cargando...</span>
+        </div>
+        <p class="mt-2">Cargando datos...</p>
+    </div>
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Sync</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html">
+
+
+                <img src="images/logo2.png" alt="alternative"></a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            <!-- end of mobile menu toggle button -->
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll">LEY DE PUEBLOS INDIGENAS</a>
+                    </li>
+                    <!-- end of dropdown menu -->
+                </ul>
+                <span class="nav-item">
+                    <a class="btn-outline-sm page-scroll" href="ley.pdf" target="_blank">DESCARGAR</a>
+                </span>
+            </div>
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header class="header" style="height: 95%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h1>Diccionario de pueblos indigenas</h1>
+                        <p class="p-large p-heading">Herramienta que facilita la comunicación entre personal de salud y comunidades indígenas, integrando términos con su significado cultural. Promueve una atención médica más empática y respetuosa, basada en el diálogo intercultural.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+
+
+
+
+        </div> <!-- end of container -->
+        <div class="deco-white-circle-1">
+            <img src="images/decorative-white-circle.svg" alt="alternative">
+        </div> <!-- end of deco-white-circle-1 -->
+        <div class="deco-white-circle-2">
+            <img src="images/decorative-white-circle.svg" alt="alternative">
+        </div> <!-- end of deco-white-circle-2 -->
+
+        <div class="deco-yellow-circle">
+            <img src="images/decorative-yellow-circle.svg" alt="alternative">
+        </div> <!-- end of deco-yellow-circle -->
+        <div class="deco-green-diamond">
+            <img src="images/decorative-green-diamond.svg" alt="alternative">
+        </div> <!-- end of deco-yellow-circle -->
+
+
+        <!-- Small Features -->
+        <div class="cards-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Card -->
+                        <div class="card consultar_idioma pointer hover" data-idioma="piaroa">
+                            <div class="card-image yellow">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Huo̧ttö̧ja̧</h5>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+
+                        <!-- Card -->
+                        <div class="card consultar_idioma pointer hover" data-idioma="yeral">
+                            <div class="card-image green">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Yeral</h5>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+
+                        <!-- Card -->
+                        <div class="card consultar_idioma pointer hover" data-idioma="jivi">
+                            <div class="card-image red">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Jivi</h5>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of cards-1 -->
+        <!-- end of small features -->
+    </header> <!-- end of header -->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+                    <div class="container">
+                        <div id="categorias" class="collapse show"></div>
+                        <div id="preguntas" class="collapse"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Lucemi Melguero</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms --><!-- Bootstrap Bundle (incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script>
+        const Toast = Swal.mixin({
+            toast: true,
+            position: "bottom-end",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.onmouseenter = Swal.stopTimer;
+                toast.onmouseleave = Swal.resumeTimer;
+            }
+        });
+
+
+
+        const clasificacion_idionma = {
+            "piaroa": {
+                "comun": "Piaroa",
+                "indigena": "Huo̧ttö̧ja̧"
+            },
+            "yeral": {
+                "comun": "Yeral",
+                "indigena": "ñeꞌengatú"
+            },
+            "jivi": {
+                "comun": "Jivi",
+                "indigena": "Jiwi"
+            }
+        }
+
+        function normalizarPronunciacion(texto) {
+            return texto
+                .normalize("NFD") // Quita acentos
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/[^a-zA-Z0-9 ]/g, "") // Elimina signos
+                .trim()
+                .toLowerCase()
+                .replace(/\s+/g, '_') + ".mp3";
+        }
+
+
+        function consultarIdioma(idioma) {
+
+            cargarIdioma('data/diccionario.json', idioma).then(cargado => {
+                if (cargado) {
+                    const clasificacion = clasificacion_idionma[idioma]
+                    console.log(clasificacion)
+                    $('#ModalTitle').html(`Idioma: ${clasificacion['comun']} - ${clasificacion['indigena']}`)
+                    $('#modal').modal('toggle')
+                } else {
+                    Toast.fire({
+                        icon: "info",
+                        title: "Muy pronto."
+                    });
+                }
+            });
+
+
+        }
+
+
+        document.addEventListener('click', function(event) {
+
+            if (event.target.closest('.consultar_idioma')) { // ACCION DE ELIMINAR
+                const elemento = event.target.closest('.consultar_idioma')
+                const idioma = elemento.getAttribute('data-idioma');
+                consultarIdioma(idioma)
+            }
+        });
+
+
+
+        async function cargarIdioma(jsonUrl, idioma) {
+            const loader = document.getElementById('loader');
+            const divCategorias = document.getElementById('categorias');
+            const divPreguntas = document.getElementById('preguntas');
+
+            loader.style.display = 'block'; // Mostrar loader
+            divCategorias.innerHTML = '';
+            divPreguntas.innerHTML = '';
+
+            try {
+                const response = await fetch(jsonUrl);
+                if (!response.ok) throw new Error("No se pudo cargar el archivo");
+
+                const data = await response.json();
+
+                if (!data[idioma]) {
+                    mostrarError('Idioma no disponible en el archivo.');
+                    return false;
+                }
+
+                mostrarCategorias(data[idioma]);
+                return true;
+
+            } catch (error) {
+                console.error('Error cargando JSON:', error);
+                mostrarError('Error al cargar los datos: ' + error.message);
+                return false;
+
+            } finally {
+                loader.style.display = 'none'; // Ocultar loader al finalizar
+            }
+        }
+
+        function mostrarError(mensaje) {
+            const divCategorias = document.getElementById('categorias');
+            divCategorias.innerHTML = `<div class="alert alert-danger">${mensaje}</div>`;
+        }
+
+
+        function mostrarCategorias(categorias) {
+            const divCategorias = document.getElementById('categorias');
+            divCategorias.innerHTML = `
+            <h3>Categorías</h3>
+            <div class="list-group">
+            `;
+
+            Object.keys(categorias).forEach((nombreCategoria, i) => {
+                const nombreBonito = nombreCategoria.replace(/_/g, ' ').toUpperCase();
+                divCategorias.innerHTML += `
+                <button type="button" onclick="mostrarPreguntas('${nombreCategoria}')" class="list-group-item list-group-item-action">${nombreBonito}</button>
+                `;
+            });
+
+            divCategorias.innerHTML += '</div>';
+            window._categoriasData = categorias; // Guardamos globalmente para acceder en mostrarPreguntas
+        }
+
+        function volverCategorias() {
+            bootstrap.Collapse.getOrCreateInstance(document.getElementById('preguntas')).hide();
+            bootstrap.Collapse.getOrCreateInstance(document.getElementById('categorias')).show();
+        }
+
+        function mostrarPreguntas(nombreCategoria) {
+            bootstrap.Collapse.getOrCreateInstance(document.getElementById('categorias')).hide();
+            document.getElementById('preguntas').classList.add('show')
+
+            const preguntas = window._categoriasData[nombreCategoria];
+            const divPreguntas = document.getElementById('preguntas');
+            divPreguntas.innerHTML = `
+            <div class="d-flex justify-content-between mb-3">
+            <h4 ">${nombreCategoria.replace(/_/g, ' ').toUpperCase()}</h4>
+            <button class="btn btn-sm btn-danger" onclick="volverCategorias()"> <i class="fa fa-arrow-left"></i> volver</button>
+            </div>
+            `;
+
+            if (!preguntas || preguntas.length === 0) {
+                divPreguntas.innerHTML += '<p>No hay preguntas.</p>';
+                return;
+            }
+
+            const idAcordeon = 'acordeon_' + nombreCategoria;
+            let html = `<div mt-3" id="${idAcordeon}">
+           `;
+
+            preguntas.forEach((pregunta, i) => {
+                const preguntaId = `${idAcordeon}_item_${i}`;
+
+                // Mover mostrarRespuestas aquí para que funcione directamente
+                let respuestasHtml = '';
+                const respuestas = pregunta.respuestas;
+                if (!respuestas || Object.keys(respuestas).length === 0 || respuestas["pendiente"] !== undefined) {
+                    respuestasHtml = '<p class="text-muted">Sin respuestas disponibles.</p>';
+                } else {
+                    respuestasHtml = '<ul class="list-group mt-2">';
+                    Object.values(respuestas).forEach(respuesta => {
+                        const mp3 = normalizarPronunciacion(respuesta.pronunciacion);
+                        respuestasHtml += `
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                            <div>
+                            Respuesta: <b>${respuesta.español}</strong></b><br>
+                            Idioma: <b class="text-danger"><em>${respuesta.lengua}</em></b><br>
+                            Pronunciación: <b>${respuesta.pronunciacion}</b>
+                            </div>
+                            <button class="btn btn-sm btn-outline-secondary flex-center" onclick="reproducirAudio('${mp3}')">
+                                🔊 Escuchar
+                            </button>
+                            </div>
+                                </li>
+                `;
+                    });
+                    respuestasHtml += '</ul>';
+                }
+
+                html += `
+                <div class="card">
+                 <div class="card-header" id="heading${i}">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" type="button" data-bs-toggle="collapse" data-bs-target="#${preguntaId}" aria-expanded="false" aria-controls="${preguntaId}">
+                                                ${pregunta.español}
+
+                        </button>
+                    </h5>
+                    </div>
+
+
+                    <div id="${preguntaId}" class="collapse" aria-labelledby="heading${i}" data-bs-parent="#${idAcordeon}">
+                  <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                           <div>
+                            <p><strong>Idioma:</strong> ${pregunta.lengua}<br>
+                            <strong>Pronunciación:</strong> ${pregunta.pronunciacion}</p>
+                           </div>
+                            <button class="btn btn-sm btn-outline-secondary flex-start" onclick="reproducirAudio('${normalizarPronunciacion(pregunta.pronunciacion)}')">
+                                🔊 Escuchar
+                            </button>
+                        </div>
+                        ${respuestasHtml}
+                    </div>
+                    </div>
+                </div>
+                `;
+            });
+
+            html += `</div></div>`;
+            divPreguntas.innerHTML += html;
+        }
+
+
+        function reproducirAudio(nombreArchivo) {
+            const audio = new Audio(`audios/piaroa/${nombreArchivo}`);
+            audio.play().catch(err => {
+                Toast.fire({
+                    icon: "info",
+                    title: "Upss! El audio no esta disponible."
+                });
+            });
+        }
+    </script>
+
+</body>
+
+</html>
